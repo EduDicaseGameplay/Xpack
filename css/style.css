@@ -1,0 +1,618 @@
+*{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body.um{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body{
+    position: relative;
+    background-color: rgb(173, 173, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.center{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.center img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(2, 179, 2);
+    border-radius: 50%;
+}
+
+.center a{
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    color: rgb(2, 179, 2);
+    font-size: 60px;
+    text-align: center;
+
+}
+
+header nav ul li a img{
+    background-color: rgb(173, 173, 173);
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
+}
+
+header nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.conteiner{ 
+    position: relative;
+    width: 900px;
+    height: 550px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.conteiner1{ 
+    position: relative;
+    width: 900px;
+    height: 550px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+video{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.item{
+    position: absolute;
+
+    width: 250px;
+    height: 181px;
+    background-color: rgb(2, 179, 2);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.item a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.item a img{
+    background: transparent;
+    position: absolute;
+    top: 70px;
+    left: 110px;
+
+
+}
+
+.item1{
+    position: absolute;
+
+    width: 250px;
+    height: 181px;
+    background-color: rgb(2, 179, 2);
+    top: 185px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.item1 a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.item1 a img{
+    background: transparent;
+    position: absolute;
+    top: 70px;
+    left: 110px;
+    
+
+}
+
+.item2{
+    position: absolute;
+
+    width: 250px;
+    height: 180px;
+    background-color: rgb(2, 179, 2);
+    top: 370px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.item2 a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.item2 a img{
+    background: transparent;
+    position: absolute;
+    top: 70px;
+    left: 110px;
+
+}
+
+.item3{
+    position: absolute;
+
+    width: 645px;
+    height: 550px;
+    background-color: black;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.item3 a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.item3 a img{
+    background: transparent;
+    position: absolute;
+    top: 220px;
+    left: 160px;
+    width: 350px;
+    height: 130px;
+
+}
+
+.transitionSize{
+    transition: transform 1s;
+}
+
+.transitionSize:hover{
+    transform: scale(1.03);
+}
+
+.hover:hover{
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.scale{
+    transition: transform 1s;
+}
+
+.scale:hover{
+    transform: scale(1.2);
+}
+
+
+.kits{
+    position: relative;
+    width: 900px;
+    height: 550px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.kits a{
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+        background: transparent;
+        font-weight: bold;
+        font-size: 20px;
+    
+    }
+
+.kit1{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.kit2{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.kit3{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.kit4{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    top: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.kit5{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    top: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.kit6{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    top: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.kit7{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    top: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.kit8{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    top: 395px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.kit9{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    top: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.arrow_back{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 230px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+.arrow_back img{
+    background: transparent;
+    position: absolute;
+    top: 2px;
+    left: 12px;
+    
+}
+
+.arrow_forward{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 230px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+.arrow_forward img{
+    background: transparent;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    
+}
+
+.kits a:hover{
+    color: white;
+}
+
+.paginas{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 500px;
+    height: 25px;
+    top: 515px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.paginas a{
+    padding: 10px;
+}
+
+.paginas a:hover{
+    color: white;
+}
+
+.social img{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 25px;
+    left: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.social{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social h2{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    top: 210px;
+    left: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social1 img{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 25px;
+    left: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social1 {
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 350px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social1 h2{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    top: 210px;
+    left: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social2 img{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 25px;
+    right: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social2 {
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    right: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social2 h2{
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    top: 210px;
+    left: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social3 {
+    background-color: rgb(2, 179, 2);
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    bottom: 30px;
+    right: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social3 img{
+    width: 250px;
+    height: 150px;
+    background: transparent;
+    position: absolute;
+    right: 0px;
+}
+
+.social3 h2{
+    background-color: transparent;
+    position: absolute;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 240px;
+
+}
+
+.social3 b{
+    background-color: transparent;
+    position: absolute;
+    top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    left: 50px;
+
+}
+
+
+
+
+
+
